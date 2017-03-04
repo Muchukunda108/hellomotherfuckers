@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+ <meta charset="utf-8">
+ <title>Отчетная страница для Андрюхи</title>
+ <script>
+ </script>
+ <style>
+     *{margin: 0;
+     padding: 0;}
+    #wrapper{
+        width: 960px;
+        margin: 0 auto;
+        padding: 0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+#content {
+    margin-top: 50px;
+}
+    .block {
+        width:300px;
+        height: 200px;
+        float:left;
+        margin-left: 15px;
+        border: 1px solid #999999;
+    }
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 0; /*убираем левый отступ, равный 40px*/
+  
+  background: #D4E7EE;
+  overflow: hidden;
+  padding: 0;
+}
+li {display: inline; 
+    float: left;
+    display: block;
+  padding: 1em;
+  border-right: 1px solid #ADC0CE;
+  background: rgba(173, 192, 206, .3);
+  color: #29838C;}
+a {
+    color: #29838C;
+  border-bottom:1px dashed #29838C; 
+  text-decoration: none;/*убираем подчеркивание текста ссылок*/
+}
+.clean{
+   clear: left;
+}
+h1 {
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+}
+h2{
+    font-size: 150px;
+    text-align: center;
+}
+
+#block1{
+    background-color: #FFE83B;
+}
+#block2{
+    background-color: #B1E01B;
+}
+#block3{
+    background-color: #FF6C18;
+}
+#footer{
+    position: absolute;
+  
+  bottom: 0;
+  width: 920px;
+    margin: 0 auto;
+  height: 150px;
+  background-color: #333;
+  padding: 20px
+}
+ </style>
+ </head>
+ <body>
+     <div id="wrapper">
+    <div id="header">
+        <div id="menu">
+            <ul>
+                <li><a href="#">Пункт Раз</a></li>
+                <li><a href="#">Пункт Два</a></li>
+                <li><a href="#">Да Блять!</a></li>
+                <li><a href="#">Последнэ</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="content">
+        <div id="block1" class="block">
+            <h2>1</h2>
+        </div>
+        <div id="block2" class="block">
+            <h2>2</h2>
+        </div>
+        <div id="block3" class="block">
+            <h2>3</h2>
+        </div> <div  class="clean">  </div>
+        <h1>Это Мой Гребаный Тест HTML!</h1>
+    </div>
+    <div id="footer">
+        <p><a href="#">Моя страница</a></p>
+        <p><a href="#">Твоя страница</a></p>
+        <p><a href="#">Его страница</a></p>
+        <p><a href="#">Каких то пидоров страница</a></p>
+        <p><a href="#">Книжная страница</a></p>
+        <p><a href="#">Последняя страница</a></p>
+    </div>
+    </div>
+ </body>
+</html>
